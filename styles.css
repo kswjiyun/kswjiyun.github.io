@@ -1,0 +1,90 @@
+body {  
+    font-family: 'Bauhaus 93', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f2c8db;
+    color: #ff69ab;
+    text-align: center;
+    padding; 0; 
+    border-bottom: 6px #ff69ab;
+}
+header img {
+    border-radius:100%;
+}
+header h1 {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 80px;
+    color: #ff0d8e;
+    text-shadow: #b70752 6px 6px 6px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+nav a {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 24px;
+    color: #fb6598;
+    background-color: white;
+    padding: 6px 24px;
+    border-radius: 12px;
+    box-shadow: #c98ba8 6px 6px 6px; 
+}
+nav a:hover, nav a:active {
+    background-color: #faacbb;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+main section {
+    padding: 1rem;
+}
+main, main section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+main section:nth-child(even) {
+    background-color: #faacbb;
+}
+footer {
+    background-color: #b70752;
+    color: #ff69ab;
+    text-align: center;
+    padding: 1rem 0; 
+    border-top: 6px #ff69ab;
+}
+
+article {
+    margin: 1rem 0;
+    padding: 1rem; 
+    background-color: #e7e7e7;
+    border-radius: 12px;
+    box-shadow: #4f4851 6px 6px 6px; 
+}
+
+article img {
+    border-radius: 6px;
+    box-shadow: #cc9eb9 6px 6px 6px;   
+}
+
+.byline {
+    color: beige;
+}
+
+.left {
+   float: left; 
+   width: 75%; 
+}
+
+.right {
+    float: right;
+    width: calc(25% - 24px);
+    margin-left: 24px;    
+}
